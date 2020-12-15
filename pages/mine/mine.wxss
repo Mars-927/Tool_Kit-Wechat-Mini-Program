@@ -1,0 +1,33 @@
+
+
+.content{
+  text-align: center;
+  color: gray;
+  font-size: x-small;
+}
+.contentbutt{
+  position:fixed; 
+  bottom:0; 
+  text-align: center;
+  color: gray;
+  font-size: x-small;
+}
+.contentl{
+  bottom: 0;
+  color: gray;
+  font-size: small;
+}
+.title1{
+  text-align: center;
+  font-size: x-large;
+}
+.titleicon{
+  width: 10%;
+}
+.setting{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}

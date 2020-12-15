@@ -1,0 +1,53 @@
+
+<!--main.wxml-->
+
+<view class="content">
+  <view class="layout-top">
+
+    <!--第01组-->
+    <view wx:for="{{selectCurrencyList}}" wx:key="id" wx:for-index="idx" wx:for-item="item"
+      class="{{highlightedId == item.id ? 'currency-group-selected':'currency-group'}}"
+      data-cid="{{item.id}}" bindtap="currencyClick" bindlongtap="selectCurrency">
+      <view class="currency-cal">
+        {{item.currencyCal}}
+      </view>
+      <view class="currency-name-en">
+        {{item.currencyNameEN}}
+      </view>
+      <view class="currency-value">
+        {{item.currencyValue}}
+      </view>
+      <view class="currency-name-cn">
+        {{item.currencyNameCN}}
+      </view>
+    </view>
+
+  </view>
+
+  <view class="layout-bottom">
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{id9}}">9</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id8}}">8</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id7}}">7</view>
+      <view class="item orange" bindtap="clickBtn" id="{{idadd}}">＋</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{id6}}">6</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id5}}">5</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id4}}">4</view>
+      <view class="item orange" bindtap="clickBtn" id="{{idj}}">－</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{id3}}">3</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id2}}">2</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id1}}">1</view>
+      <view class="item orange" bindtap="clickBtn" id="{{idx}}">×</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{idd}}">.</view>
+      <view class="item blue" bindtap="clickBtn" id="{{id0}}">0</view>
+      <view class="item orange" bindtap="clickBtn" bindlongtap="clear" id="{{idb}}">←</view>
+      <view class="item orange" bindtap="clickBtn" id="{{iddiv}}">÷</view>
+    </view>
+  </view>
+</view>

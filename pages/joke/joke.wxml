@@ -1,0 +1,14 @@
+<view class="title">笑话大全</view>
+<view class="{{css}}">{{jok[0].content}}</view>
+<view class="{{css}}">{{jok[1].content}}</view>
+<view class="{{css}}">{{jok[2].content}}</view>
+<view class="{{css}}">{{jok[3].content}}</view>
+<view class="{{css}}">{{jok[4].content}}</view>
+<view class="{{css}}">{{jok[5].content}}</view>
+<view class="{{css}}">{{jok[6].content}}</view>
+<view class="{{css}}">{{jok[7].content}}</view>
+<view class="{{css}}">{{jok[8].content}}</view>
+<view class="{{css}}">{{jok[9].content}}</view>
+<button style="width:200px height:75px"class="{{cssbutton}}"  bindtap="need">
+<view >再来一组</view>
+</button>

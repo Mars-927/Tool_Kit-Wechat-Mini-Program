@@ -1,0 +1,26 @@
+/* pages/demo03/demo03.wxss */
+.divmiddle_column {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column; /*主轴是垂直 从上到下*/
+  flex-wrap: nowrap; /*不换行*/
+  width: 100%;
+  text-align:left;
+}
+.divmiddle_row {
+  display: flex;
+  flex-direction: row; /*主轴是水平，从左到右*/
+  flex-wrap: nowrap; /*不换行*/
+  width: 100%;
+  text-align:left;
+}
+.forinput {
+  display: flex;
+  width: 95%;
+  border: 3rpx solid gray;
+  margin: 2%;
+  text-align: left;
+}
+
+
+

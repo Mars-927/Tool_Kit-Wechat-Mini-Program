@@ -1,0 +1,74 @@
+<!--pages/index/index.wxml-->
+<view class='setting'>
+  <image class="titleicon" src="ToolIcon.png" mode="widthFix"></image>
+  <text decode="{{true}}" class="title1">&nbsp;&nbsp;工具箱</text>
+</view>
+<view class="container">
+<view class="title">-文字类-</view>
+  <view class="row flex">
+    <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="toone">
+        <image class="itemicon" src="Impeachment.png" mode="widthFix"></image>
+        <text decode="{{true}}" class="txt">&nbsp;&nbsp;手持弹幕</text>
+       
+    </view>
+     <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="tosix">
+     <image class="itemicon" src="write.png" mode="widthFix"></image>
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;文章生成</text>
+    </view>
+  </view>
+  <view class="row flex">
+    <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="toseven">
+    <image class="itemicon" src="joke.png" mode="widthFix"></image>
+     <text decode="{{true}}" class="txt">&nbsp;&nbsp;笑话大全</text>
+    </view>
+    <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="toeight">
+    <image class="itemicon" src="Good.png" mode="widthFix"></image>
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;名人名言</text>
+    </view>
+  </view>
+  <view class="title">-计算类-</view>
+  <view class="row flex">
+    <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="tothree">
+    <image class="itemicon" src="num.png" mode="widthFix"></image>
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;进制转换</text>
+    </view>
+    <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="tofour">
+    <image class="itemicon" src="date.png" mode="widthFix"></image>
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;日期计算</text>
+    </view>
+  </view>
+  <view class="row flex">
+   <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="totwo">
+      <image class="itemicon" src="money.png" mode="widthFix"></image>
+   
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;汇率计算</text>
+    </view>
+  <view class="nulll" hover-class="item-hover">
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;假的啊&nbsp;&nbsp;&nbsp;</text>
+    </view>
+  </view>
+  <view class="title">-随机类-</view>
+  <view class="row flex">
+    <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="tofive">
+    <image class="itemicon" src="nice.png" mode="widthFix"></image>
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;抽奖工具</text>
+    </view>
+   <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="toten">
+   <image class="itemicon" src="shuzi.png" mode="widthFix"></image>
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;随机数&nbsp;&nbsp;&nbsp;</text>
+    </view>
+  </view>
+ <view class="row flex">
+ <view class="setting item flex-column flex-xy flex-grow-1" hover-class="item-hover" bindtap="tonine">
+ <image class="itemicon" src="suiji.png" mode="widthFix"></image>
+ 
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;骰子工具</text>
+    </view>
+  <view class="nulll " hover-class="item-hover">
+
+      <text decode="{{true}}" class="txt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;假的啊&nbsp;&nbsp;&nbsp;</text>
+    </view>
+  </view>
+</view>
+
+

@@ -1,0 +1,42 @@
+/**selectCurrency.wxss**/
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: "Microsoft YaHei";
+    overflow-x: hidden;
+}
+
+.layout-top{
+    width: 100%;
+    margin-bottom: 2rpx;
+}
+.currency-group{
+    width: 100%;
+    display: flex;
+    flex:row wrap;
+    justify-content: space-around;
+	align-content: center;
+    flex: 1;
+    height: 3rem;
+    border-bottom: 1px solid #d9eef7;
+}
+
+.currency-name-en{
+     /**左右各3%，作为padding**/
+    width:64%;
+	height: 1rem;
+    text-align: left;
+	font-size: 14px;
+	margin: auto 0;
+}
+.currency-value{
+     /**左右各3%，作为padding**/
+    width: 24%;
+    text-align: right;
+	font-size: 12px;
+	color: #ccc;
+	margin: auto 0;
+}

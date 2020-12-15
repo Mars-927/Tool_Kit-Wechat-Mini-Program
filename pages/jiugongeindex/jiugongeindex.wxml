@@ -1,0 +1,52 @@
+<view class="middle">
+
+
+<view id="container">
+  <!--左上-->
+  <view id="li" class='{{amplification_index===1?"indexli":""}}'>
+    一等奖
+    <view></view>
+  </view>
+  <!--上-->
+  <view id="li" class='{{amplification_index===2?"indexli":""}}'>
+    二等奖
+    <view></view>
+  </view>
+  <!--右上-->
+  <view id="li" class='{{amplification_index===3?"indexli":""}}'>
+    三等奖
+    <view></view>
+  </view>
+  <!--左-->
+  <view id="li" class='{{amplification_index===8?"indexli":""}}'>
+    八等奖
+    <view></view>
+  </view>
+  <!--开始-->
+  <a bindtap="startrolling">
+    开始抽奖
+  </a>
+  <!--右-->
+  <view id="li" class='{{amplification_index===4?"indexli":""}}'>
+    四等奖
+    <view></view>
+  </view>
+  <!--左下-->
+  <view id="li" class='{{amplification_index===7?"indexli":""}}'>
+    七等奖
+    <view></view>
+  </view>
+  <!--下-->
+  <view id="li" class='{{amplification_index===6?"indexli":""}}'>
+    六等奖
+    <view></view>
+  </view>
+  <!--右下-->
+  <view id="li" class='{{amplification_index===5?"indexli":""}}'>
+    五等奖
+    <view></view>
+  </view>
+  <p id="pp"></p>
+</view>
+
+</view>

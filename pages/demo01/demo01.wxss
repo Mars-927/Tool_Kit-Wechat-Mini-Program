@@ -1,0 +1,130 @@
+/* pages/demo01/demo01.wxss */
+@import '../css/iconfont.wxss';
+page{
+  margin: 0;
+  padding: 0;
+}
+.textBox{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  position: relative;
+}
+.text{
+  transform:rotate(90deg);
+  height: 1rpx;
+  display: flex;
+  align-items: center;
+  
+  white-space: nowrap;
+  position: fixed;
+  top: 280%;
+  color: white;
+}
+@keyframes animateText{
+  0%{
+    margin-top: 0%;
+  }
+  100%{
+    margin-top: -700%;
+  }
+}
+.inputBox{
+  position: fixed;
+  bottom: 1%;
+  display: flex; 
+}
+.inp{
+  border: 1px #333333 solid;
+  border-radius: 50rpx;
+  margin-left: 30rpx;
+  padding-left: 20rpx;
+  color: white;
+  font-size: 30rpx;
+  width: 390rpx;
+  height: 63rpx;
+}
+.iconBtn1{
+  width: 130rpx;
+  height: 70rpx;
+  border-radius: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  font-weight: bold;
+  background-color: #333333;
+  color: white;
+  margin-left: 10rpx;
+  
+}
+.swiperItem1{
+  padding-top: 15%;
+  padding-left: 5%;
+}
+.swiperItem2{
+  padding-top: 15%;
+}
+.colorBox{
+  display: flex;
+  justify-content: space-evenly;
+}
+.colorItems{
+  width: 50rpx;
+  height: 50rpx;
+}
+/* 弹起框的样式 */
+/*使屏幕变暗 */
+.commodity_screen {
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background: #000;
+ opacity: 0.8;
+ overflow: hidden;
+ z-index: 1000;
+ color: #fff;
+}
+/*对话框 */
+.commodity_attr_box {
+ height: 430rpx;
+ width: 100%;
+ overflow: hidden;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ z-index: 2000;
+ background: #282828;
+ border-radius: 10rpx 10rpx 0 0;
+}
+
+/* swiper start */
+
+.swiper-tab{
+    width: 100%;
+    border-bottom: 2rpx solid #373737;
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    font-weight: bold;
+    background-color: #282828;
+}
+
+.swiper-tab-item{
+    display: inline-block;
+    width: 25%;
+    color:#939393;  
+    background-color: #282828;
+}
+.active{
+    background-color: #006AFE;
+    color:white;
+    border-bottom: 4rpx solid#373737;
+}
+swiper{
+  color: white;
+  background-color: #282828;
+}

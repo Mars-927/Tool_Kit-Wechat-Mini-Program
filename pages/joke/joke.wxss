@@ -1,0 +1,28 @@
+.title{
+  text-align:center;
+  font-size: 20px;
+}
+.concent{
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.button{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid wheat;
+  width: 35%;
+  height: 45px;
+}
+.null{
+  background-color: white;
+}
+.buttonnumm{
+  background-color: white;
+  border:none;
+  color: white;
+  border-color: transparent;
+} 

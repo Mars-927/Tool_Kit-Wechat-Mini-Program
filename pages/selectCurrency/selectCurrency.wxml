@@ -1,0 +1,20 @@
+
+<!--selectCurrency.wxml-->
+
+<view class="content">
+  <view class="layout-top">
+
+    <view wx:for="{{allCurrencies}}" wx:key="{{item.currencyNameEN}}"  class="currency-group" 
+          data-cid="{{item.currencyNameEN}}" data-selected="{{item.isSelected}}"
+          bindtap="currencyClick">
+      <view class="currency-name-en">
+        {{item.currencyNameCN + item.currencyNameEN}}
+      </view>
+      <view class="currency-value">
+        {{item.isSelected?'已选择':''}}
+      </view>
+      
+    </view>
+
+  </view>
+</view>

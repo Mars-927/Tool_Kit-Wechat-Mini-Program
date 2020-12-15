@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="imgbox"  style='opacity: {{1-opacity}};'>
+    <image class="img" src="{{avatarUrl}}" mode="widthFix"></image>
+  </view>
+  <view class="tool">
+    <button disabled='{{isDisabled}}' bindtap="clickMe"> 摇骰子 </button>
+  </view>
+</view>

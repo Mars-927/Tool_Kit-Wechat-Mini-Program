@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine" ,
+    "pages/demo01/demo01",
+    "pages/demo02/demo02",
+    "pages/demo03/demo03",
+    "pages/demo04/demo04",
+    "pages/main/main",
+    "pages/jiugongeindex/jiugongeindex",
+    "pages/selectCurrency/selectCurrency",
+    "pages/joke/joke",
+    "pages/write/index",
+    "pages/Good/Good",
+    "pages/TouZi/TouZi",
+    "pages/randomNum/randomNum"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/_home.png",
+        "selectedIconPath": "image/home.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "介绍",
+        "iconPath": "image/_my.png",
+        "selectedIconPath": "image/my.png"
+      }
+    ],
+    "color":"",
+    "selectedColor":"#ff9400",
+    "backgroundColor":"#fff",
+    "position":"bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

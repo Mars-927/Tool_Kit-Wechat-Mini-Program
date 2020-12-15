@@ -1,0 +1,10 @@
+
+<!--pages/ramdomNum/randomNum.wxml-->
+<view id="numbers">
+  <view id="header">
+    <input value="{{num1}}" type="number" maxlength="4" bindblur="setNum1" /> ~
+    <input value="{{num2}}" type="number" maxlength="4" bindblur="setNum2" />
+  </view>
+  <view id="result">{{result}}</view>
+</view>
+<view id="btn-start" catchtap="start" hidden="{{hideBtn}}">摇</view>

@@ -1,0 +1,24 @@
+<!--pages/demo04/demo04.wxml-->
+<view class="viewStart">
+  <view >选择开始日期时间</view>
+  <picker mode="date" value="{{date}}" start="1900-01-01" end="2050-01-01" bindchange="bindDateChangeStart">
+    <view class="picker">
+      当前选择: {{date}}
+    </view>
+  </picker>
+  <view>选择结束日期时间</view>
+  <picker mode="date" value="{{dateEnd}}" start="1980-01-01" end="2050-01-01" bindchange="bindDateChangeEnd">
+    <view >
+      当前选择: {{dateEnd}}
+    </view>
+  </picker>
+</view>
+<button  class="btn" bindtap="btnGetDays">计算相差的天数</button>
+<view class="viewEnd">
+<view>2个日期相差{{days}}天</view>
+<view>大致为{{months}}个月</view>
+<view>大约为{{years}}年</view>
+<image src="../../image/dd.png"></image>
+</view>
+
+

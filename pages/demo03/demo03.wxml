@@ -1,0 +1,22 @@
+<!--pages/demo03/demo03.wxml-->
+<view class='divmiddle_column'>
+  <view class="">
+    <input class='forinput' bindinput="KeyInput" id='10' type="number" confirm-type="done" value='{{decimal}}' placeholder="这里输入10进制数" focus/>
+  </view>
+  <view class="">
+    <input class='forinput' bindinput="KeyInput" type="number" id='2' confirm-type="done" value='{{twoadecimal}}' placeholder="这里输入2进制数" />
+  </view>
+  <view class="">
+    <input class='forinput' bindinput="KeyInput" type="number" id='8' confirm-type="done" value='{{eightadecimal}}' placeholder="这里输入8进制数" />
+  </view>
+  <view class="">
+    <input class='forinput' bindinput="KeyInput" type="text" id='16' confirm-type="done" value='{{hexadecimal}}' placeholder="这里输入16进制数" />
+  </view>
+  <view class="divmiddle_row">
+    <input class='forinput' style='width: 40%;' bindinput="KeyInput" type="text" id='ASCII' confirm-type="done" value='{{ASCIInum}}' placeholder="ASCII字符" />
+    <view class='forinput' style='border: 0rpx'>{{ASCIInum_show}}</view>
+  </view>
+  <view>
+    <button bindtap='emptied' size='default' >清空</button>
+  </view>
+</view>

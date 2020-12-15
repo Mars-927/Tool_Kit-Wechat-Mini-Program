@@ -1,0 +1,80 @@
+/* pages/index/index.wxss */
+
+.flex {
+  display: flex;
+}
+.flex-x {
+  display: flex;
+  justify-content: center;/*justify-content属性定义了项目在主轴上的对齐方式*/
+}
+.flex-xy {
+  display: flex;
+  justify-content: center;/*justify-content属性定义了项目在主轴上的对齐方式*/
+  align-items: center;/*align-items属性定义项目在交叉轴上如何对齐*/
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;/*flex-direction属性决定主轴的方向*/
+}
+.flex-grow-1 {
+  flex-grow: 1;/* flex-grow属性定义项目的放大比例*/
+}
+.container {
+  padding: 20rpx 20rpx;
+}
+.item {
+  background-color: #fff;
+  margin: 10rpx 20rpx;
+  height: 80rpx;
+  border: 1px solid rgba(153, 153, 153, 0.2);
+  box-shadow: 2px 2px 5px #999;
+  border-radius: 5px;
+}
+.item-hover {
+  background-color: #ebebeb;
+}
+.txt {
+  margin-top: 10rpx;
+  font-size: 35rpx;
+  font-family:"微软雅黑";
+  text-align: left;
+  display: flex;
+  width: 100%;
+}
+.titleicon{
+  width: 10%;
+}
+.itemicon{
+  width: 20%;
+  margin-left: 10px;
+}
+.row {
+  margin-top: 20rpx;
+}
+.nulll{
+  color: white;
+  background-color: white;
+  font-display: false;
+  display: flex;
+  justify-content: center;/*justify-content属性定义了项目在主轴上的对齐方式*/
+  align-items: center;/*align-items属性定义项目在交叉轴上如何对齐*/
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 10rpx 20rpx;
+  height: 80rpx;
+}
+.setting{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  text-align: center;
+  color:grey;
+  margin-top: 10px;
+}
+.title1{
+  text-align: center;
+  font-size: x-large;
+}

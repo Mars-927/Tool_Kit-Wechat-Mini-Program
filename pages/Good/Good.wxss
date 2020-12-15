@@ -1,0 +1,60 @@
+.title{
+  font-size: large;
+  text-align: center;
+}
+.img{
+	display: flex;
+	justify-content: center;
+	margin-top: 20%;
+}
+.img image{
+	width: 50%;
+}
+.tips{
+	text-align: center;
+  color:grey;
+	margin-top: 10px;
+	font-size: small;
+}
+.input{
+  border-radius: 5px;
+  border: 1px solid #000000;
+  width: 70%;
+  height: 30px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.back{
+  flex-direction: row;
+  display: flex;
+}
+.butt{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 40px;
+  font-size: small;
+}
+.concent{
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.null{
+  color: white;
+  text-align: center;
+}
+.count{
+  text-align: center;
+  color: rgb(210, 234, 255);
+}
+.NoResult{
+  text-align: center;
+  color:rgb(169, 255, 234);
+  font-size: large;
+}

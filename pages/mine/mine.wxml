@@ -1,0 +1,16 @@
+<view class='setting'>
+  <image class="titleicon" src="ToolIcon.png" mode="widthFix"></image>
+  <text decode="{{true}}" class="title1">&nbsp;&nbsp;工具箱</text>
+</view>
+<view class="content">
+    <view>—项目名称：Box工具箱—</view>
+</view>
+<view class="contentl">
+    <view>留言：</view>
+</view>
+
+
+<view class="contentbutt">
+    <view>免责声明：</view>
+    <view>本项目仅用于内部展示，不会用在任何商业用途，如有侵犯到您的任何权利，联系我们，我们将在第一时间处理。</view>
+</view>

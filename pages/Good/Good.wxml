@@ -1,0 +1,30 @@
+<view class="title">名人名言</view>
+<form bindsubmit="Submit">
+<view class="back">
+  <input placeholder="请输入人名或关键词" class="input" name="input"></input>
+  <button class='butt' hover-class="none" formType="submit">查询</button>
+</view>
+</form>
+
+<view wx:for="{{output}}" wx:for-item="i">
+  <view class="{{css}}">
+    <text>{{i.famous_saying}}</text>
+    <view style="text-align:right;">{{i.famous_name}}</view>
+  </view>
+</view>
+
+<block wx:if="{{output1}}">
+	<view class="tips">
+		<text>还没有内容，输入一个关键字试试</text>
+	</view>
+	<view class="img" >
+		<image  class="img" src="null.png" mode="widthFix"></image>
+	</view>
+</block>
+
+<view wx:if="{{output!=null}}">
+    <view class="{{count}}">查询结果:{{output.length}}个</view>
+</view>
+<view wx:if="{{output==null}}">
+    <view class="NoResult">暂无查询结果，请检查输入</view>
+</view>
